@@ -4,7 +4,7 @@
   >
     <Header class="mb-8 md:mb-16" />
     <div class="grow">
-      <main class="sm:grid sm:grid-cols-3 sm:grid-rows-3 sm:gap-8">
+      <main class="flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-3 gap-8">
         <Spotlight class="sm:col-span-2 sm:row-span-2" />
         <NewArticles class="sm:row-span-2" />
         <TopArticles class="sm:col-span-3" />
