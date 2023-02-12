@@ -1,13 +1,13 @@
 <template>
   <div
-    class="min-h-screen flex flex-col font-sans bg-off-white px-8 pt-8 lg:pt-16 lg:px-32"
+    class="min-h-screen flex flex-col font-sans bg-off-white px-8 pt-8 lg:pt-16 lg:px-64"
   >
     <Header class="mb-8 md:mb-16" />
     <div class="grow">
-      <main class="grid grid-cols-3 grid-rows-3">
-        <Spotlight class="col-span-2 row-span-2" />
-        <NewArticles class="row-span-2" />
-        <TopArticles class="col-span-3" />
+      <main class="sm:grid sm:grid-cols-3 sm:grid-rows-3 sm:gap-8">
+        <Spotlight class="sm:col-span-2 sm:row-span-2" />
+        <NewArticles class="sm:row-span-2" />
+        <TopArticles class="sm:col-span-3" />
       </main>
     </div>
 
