@@ -11,11 +11,21 @@
       </main>
     </div>
 
-    <footer class="justify-self-end">
+    <footer
+      class="justify-self-end text-center text-blue-dark-grayish mt-4 md:mt-0"
+    >
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <NuxtLink
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-blue-very-dark hover:underline"
+        >Frontend Mentor</NuxtLink
+      >. Coded by
+      <NuxtLink
+        href="https://linchutchinson.com"
+        class="text-blue-very-dark hover:underline"
+        >Lincoln Hutchinson</NuxtLink
+      >.
     </footer>
   </div>
 </template>
