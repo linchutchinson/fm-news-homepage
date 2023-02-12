@@ -1,8 +1,11 @@
 <template>
-  <div class="bg-blue-very-dark px-4 py-6 flex flex-col">
+  <div class="bg-blue-very-dark px-6 py-6 flex flex-col">
     <h2 class="text-soft-orange text-3xl font-extrabold">New</h2>
     <div v-for="(article, index) in articles" class="grow">
-      <hr v-if="index > 0" class="border-1 border-blue-dark-grayish mt-4" />
+      <hr
+        v-if="index > 0"
+        class="border-1 border-blue-dark-grayish mt-4 mb-8"
+      />
       <NuxtLink to="#">
         <h3
           class="text-off-white font-bold mt-4 mb-2 lg:text-xl hover:text-soft-orange transition duration-100 ease-in-out"

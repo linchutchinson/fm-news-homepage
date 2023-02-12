@@ -1,10 +1,12 @@
 <template>
   <div
-    class="min-h-screen flex flex-col font-sans bg-off-white px-8 pt-8 lg:pt-16 lg:px-64"
+    class="min-h-screen flex flex-col font-sans bg-off-white px-8 pt-8 2xl:pt-8 2xl:px-64"
   >
-    <Header class="mb-8 md:mb-16" />
+    <Header class="mb-8 md:mb-12" />
     <div class="grow">
-      <main class="flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-3 gap-8">
+      <main
+        class="flex flex-col md:grid md:grid-cols-3 md:grid-rows-3 gap-16 md:gap-8"
+      >
         <Spotlight class="sm:col-span-2 sm:row-span-2" />
         <NewArticles class="sm:row-span-2" />
         <TopArticles class="sm:col-span-3" />
@@ -12,7 +14,7 @@
     </div>
 
     <footer
-      class="justify-self-end text-center text-blue-dark-grayish mt-4 md:mt-0"
+      class="justify-self-end text-center text-blue-dark-grayish mt-16 md:mt-0"
     >
       Challenge by
       <NuxtLink

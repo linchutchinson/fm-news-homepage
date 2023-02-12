@@ -1,7 +1,7 @@
 <template>
-  <div class="md:grid flex flex-col gap-8 md:grid-cols-3">
+  <div class="grid md:flex gap-8">
     <div v-for="(article, index) in articles" class="flex gap-4">
-      <img :src="article.image" class="max-h-36" />
+      <img :src="article.image" class="w-min object-scale-down max-h-40" />
       <div class="flex flex-col">
         <h2 class="text-blue-grayish font-bold text-3xl">0{{ index + 1 }}</h2>
         <NuxtLink to="#">

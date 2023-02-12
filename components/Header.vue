@@ -11,7 +11,7 @@
     <!-- Desktop Menu -->
     <div
       v-for="link in links"
-      class="text-blue-dark-grayish hover:text-soft-red transition duration-100 hidden md:block"
+      class="text-blue-dark-grayish hover:text-soft-red transition duration-100 hidden sm:block"
     >
       <NuxtLink to="#">{{ link }}</NuxtLink>
     </div>
