@@ -1,6 +1,8 @@
 <template>
-  <div class="min-h-screen flex flex-col font-sans">
-    <Header />
+  <div
+    class="min-h-screen flex flex-col font-sans bg-off-white px-8 pt-8 lg:pt-16 lg:px-32"
+  >
+    <Header class="mb-8 md:mb-16" />
     <div class="grow">
       <main class="grid grid-cols-3 grid-rows-3">
         <Spotlight class="col-span-2 row-span-2" />
