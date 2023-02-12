@@ -4,7 +4,13 @@
       <img :src="article.image" class="max-h-36" />
       <div class="flex flex-col">
         <h2 class="text-blue-grayish font-bold text-3xl">0{{ index + 1 }}</h2>
-        <h3 class="font-bold">{{ article.title }}</h3>
+        <NuxtLink to="#">
+          <h3
+            class="font-bold hover:text-soft-red transition duration-100 ease-in-out"
+          >
+            {{ article.title }}
+          </h3>
+        </NuxtLink>
         <p class="text-blue-dark-grayish">{{ article.snippet }}</p>
       </div>
     </div>
