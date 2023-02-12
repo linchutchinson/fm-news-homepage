@@ -20,7 +20,7 @@
       </div>
       <div>
         <button
-          class="bg-soft-red text-[#fff] px-8 py-2 font-bold text-sm tracking-[0.15em]"
+          class="bg-soft-red text-[#fff] px-8 py-2 font-bold text-sm tracking-[0.15em] hover:bg-blue-very-dark transition duration-100 ease-in-out"
         >
           READ MORE
         </button>
