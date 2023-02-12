@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col font-sans">
     <Header />
     <div class="grow">
       <main class="grid grid-cols-3 grid-rows-3">
@@ -17,3 +17,10 @@
     </footer>
   </div>
 </template>
+
+<style>
+@font-face {
+  font-family: "Inter";
+  src: url("~/assets/fonts/Inter-Variable.ttf");
+}
+</style>
