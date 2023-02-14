@@ -1,9 +1,17 @@
 <template>
   <div>
     <!-- Desktop Image -->
-    <img src="/images/image-web-3-desktop.jpg" class="hidden sm:block" />
+    <img
+      src="/images/image-web-3-desktop.jpg"
+      class="hidden sm:block"
+      alt="Colorful blocks of varying shapes and sizes"
+    />
     <!-- Mobile Image -->
-    <img src="/images/image-web-3-mobile.jpg" class="block sm:hidden" />
+    <img
+      src="/images/image-web-3-mobile.jpg"
+      class="block sm:hidden"
+      alt="Colorful blocks of varying shapes and sizes"
+    />
 
     <div class="sm:grid sm:grid-cols-2 sm:grid-rows-3 gap-4 mt-8 sm:px-4">
       <div class="sm:row-span-3 sm:px-4 mb-4">
