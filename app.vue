@@ -36,5 +36,14 @@
 @font-face {
   font-family: "Inter";
   src: url("~/assets/fonts/Inter-Variable.ttf");
+  font-display: swap;
 }
 </style>
+
+<script setup>
+const runtimeConfig = useRuntimeConfig();
+const faviconURL = runtimeConfig.app.baseURL + "favicon.png";
+useHead({
+  link: [{ hid: "icon", rel: "icon", href: faviconURL, sizes: "32x32" }],
+});
+</script>

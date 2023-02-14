@@ -5,10 +5,6 @@ export default defineNuxtConfig({
       charset: "UTF-8",
       viewport: "width=device-width, initial-scale=1.0",
       title: "Frontend Mentor | News Homepage",
-      link: [
-        { rel: "icon", href: "/favicon.png", sizes: "32x32" },
-        { rel: "stylesheet", href: "~/assets/css/tailwind.css" },
-      ],
       meta: [
         {
           name: "description",
