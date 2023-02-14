@@ -15,9 +15,9 @@
 
     <div class="sm:grid sm:grid-cols-2 sm:grid-rows-3 gap-4 mt-8">
       <div class="sm:row-span-3 mb-4">
-        <h2 class="font-extrabold text-4xl md:text-[3.25rem] leading-none">
+        <h1 class="font-extrabold text-4xl md:text-[3.25rem] leading-none">
           The Bright Future of Web 3.0?
-        </h2>
+        </h1>
       </div>
       <div class="sm:row-span-2">
         <p class="text-blue-dark-grayish mb-4">
